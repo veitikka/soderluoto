@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "seppola/concrete/concretefloor_01"
+	"$surfaceprop" "concrete"
+	"$bumpmap" "seppola/concrete/concretefloor_01_n"
+	
+	"$detail" "seppola/detail/edge_detail_01"
+	"$detailscale" "[4 1 1]"
+	"$detailblendfactor" "1.4"
+}

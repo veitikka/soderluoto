@@ -1,0 +1,60 @@
+"Water"
+{
+	"%compilewater" 1
+	"%compileNoShadows" 1
+	"%tooltexture" "dev/water_normal"
+
+
+    //forceexpensive Must be set to 1 for Portal 2 water reflections to work.
+    $forceexpensive 1
+	"$abovewater" 1
+	"$surfaceprop" "water"
+	"$bottommaterial" "seppola/nature/water_001_beneath"
+	"$bumpmap" "seppola/nature/water_001_n"
+	"$normalmap" "seppola/nature/water_001_n"
+	"$envmap" env_cubemap
+
+    // Reflection
+	"$reflecttexture" "_rt_WaterReflection"
+	"$reflecttint" "{ 200 200 200 }"
+	"$reflectskyboxonly" 0
+	"$reflectentities" 1
+	"$reflect2dskybox" 1
+	"$reflectamount" "0.9"
+
+
+    // Refraction
+	$refract 1
+	"$refracttexture" "_rt_WaterRefraction"
+	"$refractamount" "0.8"
+	"$refracttint" "{ 200 200 200 }"
+
+
+
+    // Fog stuff.
+	"$bumpframe" 0
+	"$fogenable" 1
+	//"$fogcolor" "{ 54 76 91 }"
+	"$fogcolor" "{ 52 63 83 }"
+	"$fogstart" 0
+	"$fogend" 128
+	"$lightmapwaterfog" 1
+
+	"GPU<2"
+	{
+		"$fallbackmaterial" "seppola/nature/water_001_cheap"
+	}
+
+	"$scroll1" "[-.05 -.02 .02]"
+	"$scroll2" "[-.025 .025 .1]"
+	Proxies
+	{
+	TextureScroll
+	{
+	"texturescrollvar" $bumptransform
+	"texturescrollrate" .01
+	"texturescrollangle" 45.00
+	}
+	}
+
+}

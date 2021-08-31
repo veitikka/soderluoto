@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "seppola/skybox/treecard_001"
+	"$alphatest" 1
+	"$allowalphatocoverage" 1
+}

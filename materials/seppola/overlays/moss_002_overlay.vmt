@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "seppola/overlays/moss_002_overlay"
+	"$decal"       "1"
+	"$decalscale"  "0.250"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

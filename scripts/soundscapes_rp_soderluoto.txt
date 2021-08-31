@@ -1,0 +1,413 @@
+//wind effect
+//1. walkie talkie
+//2. vahvista
+//3. bass3
+//4. wah-wah: hz 0.1, deg 130, depth 18%, resonanse 2.7, wah 30%
+
+//pos 7 always pirds
+"soder_util_birds"
+{
+	"playrandom"
+	{
+		"volume"	"0.15"
+		"pitch"		"90,110"
+		"time"		"5,15"
+		"position"	"7"
+		"soundlevel"	"SNDLVL_140dB"
+		"rndwave"
+		{
+			"wave"	"seppola/soundscape/seagull_01.wav"
+			"wave"	"seppola/soundscape/seagull_02.wav"
+			"wave"	"seppola/soundscape/seagull_03.wav"
+            "wave"	"seppola/soundscape/seagull_04.wav"
+			"wave"	"seppola/soundscape/seagull_05.wav"
+			"wave"	"seppola/soundscape/seagull_06.wav"
+            "wave"	"seppola/soundscape/seagull_07.wav"
+			"wave"	"seppola/soundscape/seagull_08.wav"
+		}
+	}
+}
+
+"soder_util_critters"
+{
+	"playrandom"
+	{
+		"volume"	"1"
+		"pitch"		"90,110"
+		"time"		"3,30"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_40dB"
+		"rndwave"
+		{
+			"wave"	"seppola/soundscape/cricket_01.wav"
+			"wave"	"seppola/soundscape/cricket_02.wav"
+			"wave"	"seppola/soundscape/cricket_03.wav"
+            "wave"	"seppola/soundscape/cricket_04.wav"
+		}
+	}
+    
+	"playrandom"
+	{
+		"volume"	"1"
+		"pitch"		"90,110"
+		"time"		"3,15"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_40dB"
+		"rndwave"
+		{
+            "wave"	"ambient/creatures/flies1.wav"
+            "wave"	"ambient/creatures/flies2.wav"
+            "wave"	"ambient/creatures/flies3.wav"
+            "wave"	"ambient/creatures/flies4.wav"
+            "wave"	"ambient/creatures/flies5.wav"
+		}
+	}
+}
+
+//pos 7 pirds
+"soder_outdoor_foliage"
+{
+
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"wave"		")seppola/soundscape/wind_foliage_loop.wav"
+	}
+    "playsoundscape"
+    {
+        "name"      "soder_util_birds"
+        "volume"    "1"
+    }
+    
+    "playsoundscape"
+    {
+        "name"      "soder_util_critters"
+        "volume"    "1"
+    }
+
+}
+
+//pos 7 pirds
+"soder_outdoor_beach"
+{
+
+	"playlooping"
+	{
+		"volume"	"0.1"
+		"wave"		")seppola/soundscape/wind_foliage_loop.wav"
+	}
+    "playlooping"
+	{
+		"volume"	"0.35"
+		"wave"		"seppola/soundscape/beachwaves_loop.wav"
+	}
+    "playsoundscape"
+    {
+        "name"      "soder_util_birds"
+        "volume"    "1"
+    } 
+    "playsoundscape"
+    {
+        "name"      "soder_util_critters"
+        "volume"    "1"
+    }
+}
+
+//pos 7 pirds
+"soder_outdoor_sea"
+{
+
+	"playlooping"
+	{
+		"volume"	"0.01"
+		"wave"		")seppola/soundscape/wind_high_loop.wav"
+	}
+    "playlooping"
+	{
+		"volume"	"0.7"
+		"wave"		"seppola/soundscape/beachwaves_loop.wav"
+	}
+    "playsoundscape"
+    {
+        "name"      "soder_util_birds"
+        "volume"    "1"
+    }
+}
+
+//pos 0 electric panel, pos 7 pirds
+"soder_indoor"
+{
+
+	"playlooping"
+	{
+		"volume"	"0.05"
+		"wave"		")seppola/soundscape/indoor_tone_loop_01.wav"
+	}
+    
+    "playlooping"
+	{
+		"volume"	"0.1"
+        "pitch"		"80"
+		"wave"		")seppola/soundscape/wind_foliage_loop.wav"
+	}
+    
+    "playlooping"
+	{
+		"volume"	"1"
+        "position"  "0"
+        "soundlevel"	"SNDLVL_40dB"
+		"wave"		"seppola/soundscape/electric_loop_01.wav"
+	}
+    
+	"playrandom"
+	{
+		"volume"	"0.1, 0.3"
+		"pitch"		"95,105"
+		"time"		"2,15"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140dB"
+		"rndwave"
+		{
+            "wave"	"seppola/soundscape/woodcracking_01.wav"
+            "wave"	"seppola/soundscape/woodcracking_02.wav"
+            "wave"	"seppola/soundscape/woodcracking_03.wav"
+            "wave"	"seppola/soundscape/woodcracking_04.wav"
+            "wave"	"seppola/soundscape/woodcracking_05.wav"
+            "wave"	"seppola/soundscape/woodcracking_06.wav"
+            "wave"	"seppola/soundscape/woodcracking_07.wav"
+		}
+	}
+    
+    "playsoundscape"
+    {
+        "name"      "soder_util_birds"
+        "volume"    "0.3"
+    }
+}
+
+//pos 0 electric panel, pos 1 radio, pos 7 pirds
+"soder_indoor_radio"
+{
+
+    "playlooping"
+	{
+		"volume"	"1"
+        "position"  "1"
+        "soundlevel"	"SNDLVL_65dB"
+		"wave"		"seppola/soundscape/radio_static_loop.wav"
+	}
+    
+	"playrandom"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"time"		"11,30"
+		"position"	"1"
+		"soundlevel"	"SNDLVL_65dB"
+		"rndwave"
+		{
+            "wave"	"seppola/soundscape/radio_chatter_01.wav"
+            "wave"	"seppola/soundscape/radio_chatter_02.wav"
+            "wave"	"seppola/soundscape/radio_chatter_03.wav"
+            "wave"	"seppola/soundscape/radio_chatter_04.wav"
+            "wave"	"seppola/soundscape/radio_chatter_05.wav"
+            "wave"	"seppola/soundscape/radio_chatter_06.wav"
+		}
+	}
+    
+    "playsoundscape"
+    {
+        "name"      "soder_indoor"
+        "volume"    "1"
+    }
+}
+
+//pos 0 ceiling opening
+"soder_underground"
+{
+
+	"playlooping"
+	{
+		"volume"	"0.05"
+		"pitch"		"100"
+		"wave"		"ambient/atmosphere/ambience_base.wav"
+	}
+    
+    "playlooping"
+	{
+		"volume"	"0.2"
+        "pitch"		"80"
+		"wave"		")seppola/soundscape/indoor_tone_loop_02.wav"
+	}
+    
+    "playlooping"
+	{
+		"volume"	"0.2"
+        "position"  "0"
+		"wave"		"seppola/soundscape/wind_foliage_loop.wav"
+	}
+    
+	"playrandom"
+	{
+		"volume"	"0.5, 1"
+		"pitch"		"90,110"
+		"time"		"5,20"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_75dB"
+		"rndwave"
+		{
+            "wave"	"seppola/soundscape/rockdebris_01.wav"
+            "wave"	"seppola/soundscape/rockdebris_02.wav"
+            "wave"	"seppola/soundscape/rockdebris_03.wav"
+            "wave"	"seppola/soundscape/rockdebris_04.wav"
+		}
+	}
+}
+
+//pos 0 electric panel
+"soder_bunker"
+{
+
+    "playlooping"
+	{
+		"volume"	"1"
+        "position"  "0"
+        "soundlevel"	"SNDLVL_40dB"
+		"wave"		"seppola/soundscape/electric_loop_01.wav"
+	}
+    
+    "playlooping"
+	{
+		"volume"	"0.05"
+        "pitch"		"80"
+		"wave"		")seppola/soundscape/wind_foliage_loop.wav"
+	}
+    
+    "playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		")seppola/soundscape/indoor_tone_loop_02.wav"
+	}
+}
+
+"soder_indoor_boathouse"
+{
+
+    "playlooping"
+	{
+		"volume"	"0.05"
+		"wave"		")seppola/soundscape/indoor_tone_loop_01.wav"
+	}
+    
+    "playlooping"
+	{
+		"volume"	"0.08"
+        "position"  "1"
+        "soundlevel"	"SNDLVL_80dB"
+		"wave"		"seppola/soundscape/beachwaves_loop.wav"
+	}
+    
+    "playrandom"
+	{
+		"volume"	"0.1, 0.3"
+		"pitch"		"95,105"
+		"time"		"2,15"
+		"position"	"0"
+		"soundlevel"	"SNDLVL_140dB"
+		"rndwave"
+		{
+            "wave"	"seppola/soundscape/woodcracking_01.wav"
+            "wave"	"seppola/soundscape/woodcracking_02.wav"
+            "wave"	"seppola/soundscape/woodcracking_03.wav"
+            "wave"	"seppola/soundscape/woodcracking_04.wav"
+            "wave"	"seppola/soundscape/woodcracking_05.wav"
+            "wave"	"seppola/soundscape/woodcracking_06.wav"
+            "wave"	"seppola/soundscape/woodcracking_07.wav"
+		}
+	}
+    
+	"playrandom"
+	{
+		"volume"	"0.3, 0.5"
+		"pitch"		"90,110"
+		"time"		"13,35"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_75dB"
+		"rndwave"
+		{
+            "wave"	"seppola/soundscape/metal_echo_01.wav"
+            "wave"	"seppola/soundscape/metal_echo_02.wav"
+            "wave"	"seppola/soundscape/metal_echo_03.wav"
+            "wave"	"seppola/soundscape/metal_echo_04.wav"
+		}
+	}
+    
+    "playsoundscape"
+    {
+        "name"      "soder_util_birds"
+        "volume"    "0.3"
+    }
+}
+
+"soder_boat"
+{
+
+	"playlooping"
+	{
+		"volume"	    "0.6"
+        "position"	    "0"
+        "soundlevel"	"SNDLVL_140dB"
+		"wave"		"seppola/soundscape/boat_inside_loop.wav"
+	}
+    
+    "playrandom"
+	{
+		"volume"	"0.2, 0.5"
+		"pitch"		"90,110"
+		"time"		"5,20"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_75dB"
+		"rndwave"
+		{
+            "wave"	"ambient/materials/metal_stress1.wav"
+            "wave"	"ambient/materials/metal_stress2.wav"
+            "wave"	"ambient/materials/metal_stress3.wav"
+            "wave"	"ambient/materials/metal_stress4.wav"
+            "wave"	"ambient/materials/metal_stress5.wav"
+		}
+	}
+}
+
+//pos 0 metal railing, pos 7 pirds
+"soder_outdoor_tower"
+{
+
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"wave"		")seppola/soundscape/wind_high_loop.wav"
+	}
+    
+    "playrandom"
+	{
+		"volume"	"0.5, 1"
+		"pitch"		"90,110"
+		"time"		"5,20"
+		"position"	"0"
+		"soundlevel"	"SNDLVL_75dB"
+		"rndwave"
+		{
+            "wave"	"ambient/materials/metal_stress1.wav"
+            "wave"	"ambient/materials/metal_stress2.wav"
+            "wave"	"ambient/materials/metal_stress3.wav"
+            "wave"	"ambient/materials/metal_stress4.wav"
+            "wave"	"ambient/materials/metal_stress5.wav"
+		}
+	}
+    
+    "playsoundscape"
+    {
+        "name"      "soder_util_birds"
+        "volume"    "1"
+    }
+}

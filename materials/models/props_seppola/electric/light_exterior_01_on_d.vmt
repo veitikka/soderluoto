@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	$basetexture "models/props_seppola/electric/light_exterior_01_on_d"
+	$selfillum "1"
+}

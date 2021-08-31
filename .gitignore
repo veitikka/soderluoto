@@ -1,0 +1,6 @@
+*.bsp
+*.vmx
+mapsrc/*.prt
+mapsrc/*.log
+materials/*.pdn
+materials/*.png

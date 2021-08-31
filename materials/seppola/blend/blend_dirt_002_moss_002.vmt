@@ -1,0 +1,20 @@
+WorldVertexTransition
+{
+	"$basetexture"			"seppola/nature/dirt_002"
+	"$basetexture2" 		"seppola/nature/moss_002"
+
+
+	"$bumpmap" 			"seppola/nature/dirt_002_n"
+	"$bumpmap2" 		"seppola/nature/moss_002_n"
+
+
+	"$surfaceprop" 		"dirt"
+	"$surfaceprop2" 	"grass"
+
+
+	"$blendmodulatetexture" 	"seppola/blend/blendmodulate_001"
+
+	
+	"%tooltexture"		"seppola/nature/moss_002"
+	"%detailtype"		"seppola_grass"
+}

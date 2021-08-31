@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "seppola/metal/metalroof_02"
+	"$bumpmap" "seppola/metal/metalroof_02_n"
+	"$surfaceprop" "metalpanel"
+	
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[ 0.5 0.5 0.5 ]"
+}

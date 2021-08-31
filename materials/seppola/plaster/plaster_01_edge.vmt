@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "seppola/plaster/plaster_01"
+	"$bumpmap" "seppola/plaster/plaster_01_n"
+	"$surfaceprop" "plaster"
+	
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[ 0.1 0.1 0.1 ]"
+    
+	"$detail" "seppola/detail/edge_detail_01"
+	"$detailscale" "[8 1 1]"
+	"$detailblendfactor" "1"
+}

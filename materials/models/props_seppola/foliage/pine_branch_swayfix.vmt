@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/foliage/pine_branch"
+ 	"$alphatest" 1
+//	"$translucent" 1
+	"$allowalphatocoverage" 1
+	 $nocull 1
+}	

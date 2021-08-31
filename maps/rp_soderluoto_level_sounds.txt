@@ -1,0 +1,129 @@
+"Soder.Door.Open.Int"
+{
+	"channel"	"CHAN_AUTO"
+	"volume" 	"1"
+	"soundlevel" 	"SNDLVL_IDLE"
+	"pitch" 	"100"
+
+	"wave" "door/door_interior_open_001.wav"
+}
+"Soder.Door.Close.Int"
+{
+	"channel"	"CHAN_AUTO"
+	"volume" 	"1"
+	"soundlevel" 	"SNDLVL_IDLE"
+	"pitch" 	"100"
+
+	"wave" "door/door_interior_close_002.wav"
+}
+"Soder.Door.Locked.Int"
+{
+	"channel"	"CHAN_AUTO"
+	"volume" 	"1"
+	"soundlevel" 	"SNDLVL_IDLE"
+	"pitch" 	"100"
+
+	"wave" "door/door_locked_003.wav"
+}
+"Soder.Door.Unlocked.Int"
+{
+	"channel"	"CHAN_AUTO"
+	"volume" 	"1"
+	"soundlevel" 	"SNDLVL_IDLE"
+	"pitch" 	"100"
+
+	"wave" "door/door_unlock_002.wav"
+}
+
+"Soder.Door.Open.Ext"
+{
+	"channel"	"CHAN_AUTO"
+	"volume" 	"1"
+	"soundlevel" 	"SNDLVL_IDLE"
+	"pitch" 	"100"
+
+	"wave" "door/door_open_001.wav"
+}
+"Soder.Door.Close.Ext"
+{
+	"channel"	"CHAN_AUTO"
+	"volume" 	"1"
+	"soundlevel" 	"SNDLVL_IDLE"
+	"pitch" 	"100"
+
+	"wave" "door/door_close_003.wav"
+}
+"Soder.Door.Locked.Ext"
+{
+	"channel"	"CHAN_AUTO"
+	"volume" 	"1"
+	"soundlevel" 	"SNDLVL_IDLE"
+	"pitch" 	"100"
+
+	"wave" "door/door_locked_001.wav"
+}
+"Soder.Door.Locked.Ext2"
+{
+	"channel"	"CHAN_AUTO"
+	"volume" 	"1"
+	"soundlevel" 	"SNDLVL_IDLE"
+	"pitch" 	"100"
+
+	"wave" "door/door_locked_002.wav"
+}
+"Soder.Door.Unlocked.Ext"
+{
+	"channel"	"CHAN_AUTO"
+	"volume" 	"1"
+	"soundlevel" 	"SNDLVL_IDLE"
+	"pitch" 	"100"
+
+	"wave" "door/door_unlock_005.wav"
+}
+
+"Soder.WarehouseDoor.Open"
+{
+	"channel"	"CHAN_AUTO"
+	"volume" 	"1"
+	"soundlevel" 	"SNDLVL_IDLE"
+	"pitch" 	"100"
+
+	"wave" "seppola/doors/door_warehouse_open.wav"
+}
+"Soder.WarehouseDoor.Close"
+{
+	"channel"	"CHAN_AUTO"
+	"volume" 	"1"
+	"soundlevel" 	"SNDLVL_IDLE"
+	"pitch" 	"100"
+
+	"wave" "seppola/doors/door_warehouse_close.wav"
+}
+"Soder.WarehouseDoor.Locked"
+{
+	"channel"	"CHAN_AUTO"
+	"volume" 	"1"
+	"soundlevel" 	"SNDLVL_IDLE"
+	"pitch" 	"100"
+
+	"wave" "seppola/doors/door_warehouse_locked.wav"
+}
+"Soder.WarehouseDoor.Unlocked"
+{
+	"channel"	"CHAN_AUTO"
+	"volume" 	"1"
+	"soundlevel" 	"SNDLVL_IDLE"
+	"pitch" 	"100"
+
+	"wave" "door/door_unlock_005.wav"
+}
+
+"DoorHandles.Unlocked1"
+{
+	"channel"	"CHAN_AUTO"
+	"volume" 	"1"
+	"soundlevel" 	"SNDLVL_IDLE"
+	"pitch" 	"100"
+
+	"wave" "common/null.wav"
+}

@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "seppola/tile/tilefloor_01"
+	"$bumpmap" "seppola/tile/tilefloor_01_n"
+	"$surfaceprop" "tile"
+	
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[ 0.25 0.25 0.25 ]"
+}

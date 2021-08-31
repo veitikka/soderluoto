@@ -1,0 +1,20 @@
+WorldVertexTransition
+{
+	"$basetexture"		"seppola/nature/dirt_001"
+	"$basetexture2" 		"seppola/nature/rock_001"
+
+
+	"$bumpmap" 			"seppola/nature/dirt_001_ssbump"
+	"$bumpmap2" 			"seppola/nature/rock_001_ssbump"
+	"$ssbump" 			"1"
+
+
+	"$surfaceprop" 		"dirt"
+	"$surfaceprop2" 		"rock"
+
+
+	"$blendmodulatetexture" 	"seppola/blend/blendmodulate_001"
+
+	
+	"%tooltexture"		"seppola/nature/dirt_001"
+}

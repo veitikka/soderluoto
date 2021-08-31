@@ -1,0 +1,11 @@
+"lightmappedgeneric"
+{
+	"$basetexture" "seppola/fabrics/nave_01"
+	
+	"$nocull" 1
+	"$alphatest" 1
+	"$allowalphatocoverage" 1
+
+
+	"$surfaceprop" "fabric"
+}

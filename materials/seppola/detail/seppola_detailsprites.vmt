@@ -1,0 +1,14 @@
+"UnlitGeneric"
+{
+ // "$translucent" 1
+	"$alphatest" 1
+	"$allowalphatocoverage" 1
+	"$alphatestreference" 0.7
+	"$basetexture" "seppola/detail/seppola_detailsprites"
+	"$nocull" 1
+	//Why vertexcolor and alpha?
+	//"$vertexcolor" 1
+	//"$vertexalpha" 1
+	"$receiveflashlight" 1
+	"$singlepassflashlight" 1
+}

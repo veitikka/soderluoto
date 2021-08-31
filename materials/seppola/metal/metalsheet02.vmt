@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "seppola/metal/metalsheet02"
+	"$envmapmask" "seppola/metal/metalsheet02_n"
+	"$surfaceprop" "metalpanel"
+	
+	"$envmap" "env_cubemap"
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture"				"models\props_seppola\military\barracks_bed_d"
+    "$envmap" 					"env_cubemap"
+	"$envmaptint"				 	"[0.01 0.01 0.01]"
+}

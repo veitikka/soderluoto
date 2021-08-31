@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+
+	$basetexture "models/props_seppola/interior/shelf_01_d"
+	$envmap "env_cubemap"
+	$basealphaenvmapmask "1"
+	$envmapcontrast "0.8"
+	$envmaptint "[ 0.3 0.3 0.3 ]"
+
+}

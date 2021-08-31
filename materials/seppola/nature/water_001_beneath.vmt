@@ -1,0 +1,46 @@
+"Water"
+{
+	"%compilewater" 1
+	"%compileNoShadows" 1
+	"%tooltexture" "dev/water_normal"
+
+	"$abovewater" 0
+	"$underwateroverlay" "effects/water_warp01"
+	"$reflectentities" 0
+	"$surfaceprop" "water"
+	"$bumpmap" "seppola/nature/water_001_n"
+	"$normalmap" "seppola/nature/water_001_n"
+	"$envmap" env_cubemap
+
+    // Refraction
+	"$refracttexture" "_rt_WaterRefraction"
+	"$refractamount" "0.8"
+	"$refracttint" "{ 200 200 200 }"
+
+    // Fog stuff.
+	"$bumpframe" 0
+	"$fogenable" 1
+	//"$fogcolor" "{ 54 76 91 }"
+	"$fogcolor" "{ 52 63 83 }"
+	"$fogstart" -16
+	"$fogend" 32
+	"$lightmapwaterfog" 1
+
+	"GPU<2"
+	{
+		"$fallbackmaterial" "seppola/nature/water_001_cheap"
+	}
+
+	"$scroll1" "[-.05 -.02 .02]"
+	"$scroll2" "[-.025 .025 .1]"
+	Proxies
+	{
+	TextureScroll
+	{
+	"texturescrollvar" $bumptransform
+	"texturescrollrate" .01
+	"texturescrollangle" 65.00
+	}
+	}
+
+}

@@ -1,0 +1,43 @@
+Water
+{
+$abovewater 1
+"%compilewater" 1
+"%tooltexture" "seppola/nature/water_001_n"
+
+$scale "[1 1]"
+$bumpmap "seppola/nature/water_001_n"
+$normalmap "seppola/nature/water_001_n"
+
+$envmap env_cubemap
+
+$reflecttexture _rt_WaterReflection
+$reflectamount 0.9
+$reflectentities 1
+
+$refracttexture _rt_WaterRefraction
+$refractamount 0.8
+$refracttint "{200 200 200}"
+
+$surfaceprop water
+
+$bottommaterial "dev/dev_waterbeneath2"
+$bumpframe 0
+$fogenable 1
+$fogcolor "{54 76 91}"
+$fogstart -16
+$fogend 32
+$scroll1 "[-.05 -.02 .02]"
+$scroll2 "[-.025 .025 .1]"
+Proxies
+{
+TextureScroll
+{
+texturescrollvar $bumptransform
+texturescrollrate .01
+texturescrollangle 65.00
+}
+}
+}
+
+
+

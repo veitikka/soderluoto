@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "seppola/nature/asphalt_01"
+	"$bumpmap" "seppola/nature/asphalt_01_n"
+	"$surfaceprop" "concrete"
+}

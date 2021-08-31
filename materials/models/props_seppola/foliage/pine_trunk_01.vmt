@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/props_seppola/foliage/pine_trunk_01"
+//	"$bumpmap" 		"models/props_seppola/foliage/pine_trunk_01_normal"
+		
+
+}

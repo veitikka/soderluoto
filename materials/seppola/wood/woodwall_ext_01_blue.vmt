@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "seppola/wood/woodwall_ext_01_blue"
+	"$bumpmap" "seppola/wood/woodwall_ext_01_n"
+	"$surfaceprop" "wood"
+	
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[ 0.09 0.09 0.09 ]"
+}

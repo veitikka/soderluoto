@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "seppola/concrete/concretefloor_05"
+	"$bumpmap" "seppola/concrete/concretefloor_05_n"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .025 .025 .025]"
+	"$normalmapalphaenvmapmask" "1"
+	"$surfaceprop" "Concrete"
+}

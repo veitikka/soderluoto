@@ -1,0 +1,15 @@
+LightmappedGeneric
+{
+	"$basetexture"		"seppola/glass/glass_clean"
+	"$bumpmap"			"seppola/glass/glass_clean_n"
+	"$surfaceprop"		"glass"
+
+	"$envmap"		"env_cubemap"
+	"$envmaptint"		"[.20 .30 .35]"
+
+	"$translucent"		"1"
+	"$nocull"		"1"
+
+	"$crackmaterial" "seppola/glass/glass_clean_break"
+
+}

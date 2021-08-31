@@ -1,0 +1,9 @@
+"DecalModulate"
+{
+	"$basetexture" "seppola/decals/damageconcrete_08"
+	"$decal"       "1"
+	"$decalscale"  "0.250"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+
+}

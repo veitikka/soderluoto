@@ -1,0 +1,240 @@
+detail
+{
+
+	seppola_grass
+	{
+		"density" "2640"
+
+
+		Group1
+		{
+			"alpha" "0.0"
+		}
+
+		Group2
+		{
+			"alpha" ".35"
+		}
+
+		Group3
+		{
+			"alpha" ".45"
+			A //1st row, left, dry grass 1
+			{
+				"sprite"	"256 0 256 200 1024"
+				"spritesize"	"0.0 0.0 25 15"
+				"spriterandomscale"	"0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			B //1st row, right, green grass 2
+			{
+				"sprite"	"512 0 256 210 1024"
+				"spritesize"	"0.0 0.0 20 15"
+				"spriterandomscale"	"0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			C //1st row, far right, green grass 3
+			{
+				"sprite"	"768 0 256 210 1024"
+				"spritesize"	"0.0 0.0 25 15"
+				"spriterandomscale"	"0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			D //2nd row, far right, green thing 4
+			{
+				"sprite"	"768 256 128 210 1024"
+				"spritesize"	"0.0 0.0 20 20"
+				"spriterandomscale"	"0.2"
+				"amount" "0.05"
+				"detailOrientation" "2"
+			}
+			E //2nd row, right, dry grass 5
+			{
+				"sprite"	"256 256 256 210 1024"
+				"spritesize"	"0.0 0.0 25 19"
+				"spriterandomscale"	"0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			F //2nd row, far far left, dry grass 6
+			{
+				"sprite"	"0 256 128 210 1024"
+				"spritesize"	"0.0 0.0 15 15"
+				"spriterandomscale"	"0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			G //2nd row, far left, dry grass 7
+			{
+				"sprite"	"128 256 128 210 1024"
+				"spritesize"	"0.0 0.0 25 10"
+				"spriterandomscale"	"0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			H //2nd row, far far right, green thing 8
+			{
+				"sprite"	"896 256 128 210 1024"
+				"spritesize"	"0.0 0.0 20 20"
+				"spriterandomscale"	"0.2"
+				"amount" "0.05"
+				"detailOrientation" "2"
+			}
+			I //2nd row, right, dandelions 9
+			{
+				"sprite"	"512 256 128 256 1024"
+				"spritesize"	"0.0 0.0 15 15"
+				"spriterandomscale"	"0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			J //2nd row, right, dandelions 10
+			{
+				"sprite"	"768 256 128 256 1024"
+				"spritesize"	"0.0 0.0 15 15"
+				"spriterandomscale"	"0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			K //1st row, far far left, pignosenings 11
+			{
+				"sprite"	"0 0 128 220 1024"
+				"spritesize"	"0.0 0.0 15 15"
+				"spriterandomscale"	"0.2"
+				"amount" "0.05"
+				"detailOrientation" "2"
+			}
+			L //1st row, far left, pignosenings 12
+			{
+				"sprite"	"128 0 128 220 1024"
+				"spritesize"	"0.0 0.0 15 15"
+				"spriterandomscale"	"0.2"
+				"amount" "0.05"
+				"detailOrientation" "2"
+			}
+		}
+
+	}
+	
+	seppola_grass_invert
+	{
+		"density" "2640"
+
+
+		Group1
+		{
+			"alpha" "1.0"
+		}
+
+		Group2
+		{
+			"alpha" ".65"
+		}
+
+		Group3
+		{
+			"alpha" ".45"
+			A //1st row, left, dry grass 1
+			{
+				"sprite"	"256 0 256 200 1024"
+				"spritesize"	"0.0 0.0 25 15"
+				"spriterandomscale"	"0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			B //1st row, right, green grass 2
+			{
+				"sprite"	"512 0 256 210 1024"
+				"spritesize"	"0.0 0.0 20 15"
+				"spriterandomscale"	"0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			C //1st row, far right, green grass 3
+			{
+				"sprite"	"768 0 256 210 1024"
+				"spritesize"	"0.0 0.0 25 15"
+				"spriterandomscale"	"0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			D //2nd row, far right, green thing 4
+			{
+				"sprite"	"768 256 128 210 1024"
+				"spritesize"	"0.0 0.0 20 20"
+				"spriterandomscale"	"0.2"
+				"amount" "0.05"
+				"detailOrientation" "2"
+			}
+			E //2nd row, right, dry grass 5
+			{
+				"sprite"	"256 256 256 210 1024"
+				"spritesize"	"0.0 0.0 25 19"
+				"spriterandomscale"	"0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			F //2nd row, far far left, dry grass 6
+			{
+				"sprite"	"0 256 128 210 1024"
+				"spritesize"	"0.0 0.0 15 15"
+				"spriterandomscale"	"0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			G //2nd row, far left, dry grass 7
+			{
+				"sprite"	"128 256 128 210 1024"
+				"spritesize"	"0.0 0.0 25 10"
+				"spriterandomscale"	"0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			H //2nd row, far far right, green thing 8
+			{
+				"sprite"	"896 256 128 210 1024"
+				"spritesize"	"0.0 0.0 20 20"
+				"spriterandomscale"	"0.2"
+				"amount" "0.05"
+				"detailOrientation" "2"
+			}
+			I //2nd row, right, dandelions 9
+			{
+				"sprite"	"512 256 128 256 1024"
+				"spritesize"	"0.0 0.0 15 15"
+				"spriterandomscale"	"0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			J //2nd row, right, dandelions 10
+			{
+				"sprite"	"768 256 128 256 1024"
+				"spritesize"	"0.0 0.0 15 15"
+				"spriterandomscale"	"0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			K //1st row, far far left, pignosenings 11
+			{
+				"sprite"	"0 0 128 220 1024"
+				"spritesize"	"0.0 0.0 15 15"
+				"spriterandomscale"	"0.2"
+				"amount" "0.05"
+				"detailOrientation" "2"
+			}
+			L //1st row, far left, pignosenings 12
+			{
+				"sprite"	"128 0 128 220 1024"
+				"spritesize"	"0.0 0.0 15 15"
+				"spriterandomscale"	"0.2"
+				"amount" "0.05"
+				"detailOrientation" "2"
+			}
+		}
+
+	}
+
+}

@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+
+	$basetexture "models/props_seppola/interior/wooden_drawer_01_d"
+	$envmap "env_cubemap"
+	$envmaptint "[ 0.2 0.2 0.2 ]"
+}

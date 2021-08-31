@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "seppola/nature/rock_001"
+	"$bumpmap" "seppola/nature/rock_001_ssbump"
+                "$ssbump"	"1"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "seppola/nature/rock_001_env"
+	"$surfaceprop" "rock"
+                "$envmaptint" "[ .05 .05 .05 ]"
+	"$envmapcontrast" .7
+	"$envmapsaturation" .7
+		"$detail" 				"seppola\detail\rock_detail_02"
+	"$detailscale" 			"[2.5 2.5]"
+	"$detailblendfactor" 	".95"
+	"$detailblendmode" "0"
+}

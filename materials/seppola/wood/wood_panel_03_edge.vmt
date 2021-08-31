@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "seppola/wood/wood_panel_03"
+	"$surfaceprop" "Wood"
+    
+    "$detail" "seppola/detail/edge_detail_01"
+	"$detailscale" "[8 1 1]"
+	"$detailblendfactor" "2"
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	$basetexture "models/props_seppola/boat/boat_doorway_03_d"
+	$envmap "env_cubemap"
+	$envmapmask "models/props_seppola/boat/boat_doorway_03_s"
+}

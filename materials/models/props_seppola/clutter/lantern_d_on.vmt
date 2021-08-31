@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	$basetexture "models/props_seppola/clutter/lantern_d_on"
+	//$translucent "1"
+	$selfillum "1"
+	$envmap "env_cubemap"
+	$envmaptint "[0.3 0.3 0.3]"
+}

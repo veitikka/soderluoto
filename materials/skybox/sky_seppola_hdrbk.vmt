@@ -1,0 +1,6 @@
+"Sky"
+{
+	"$hdrcompressedtexture" "skybox/sky_seppola_hdrbk"
+	"$basetexture" "skybox/sky_seppola_bk"
+	"$basetexturetransform" "center 0 0 scale 1 2 rotate 0 translate 0 0"
+}

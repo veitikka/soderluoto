@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "seppola/nature/rock_02"
+
+	"$detail" "seppola/detail/rock_detail_02"
+	"$detailscale" "3"
+	"$detailblendfactor" 0.5
+	"$detailblendmode" "0"
+
+	//"$bumpmap" 			"seppola/nature/rock_001_ssbump"
+	//"$ssbump" 			"1"
+}

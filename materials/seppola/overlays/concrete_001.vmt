@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "seppola/concrete/concrete_001"
+	"$decal"       "1"
+	"$decalscale"  "0.250"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+
+}

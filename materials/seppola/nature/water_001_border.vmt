@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	//"$color" "{ 54 76 91 }"
+	"$color" "{ 52 63 83 }"
+	"%ToolTexture" "seppola/nature/water_001_border"
+	"%compileNoLight" 1
+}

@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\props_seppola\foliage\standing_rock_3"
+
+	//"$tintmasktexture"	"models\props_seppola\foliage\standing_rock_3_tint"
+
+	"$detail" 				"seppola\detail\rock_detail_02"
+	"$detailscale" 			"[5 5]"
+	"$detailblendfactor" 	".95"
+	"$detailblendmode" "0"
+	"$surfaceprop" 			"rock"
+
+}

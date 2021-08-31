@@ -1,0 +1,19 @@
+WorldVertexTransition
+{
+	"$basetexture"			"seppola/concrete/concretewall_01_green"
+	"$basetexture2" 		"seppola/concrete/concretewall_01_worn"
+
+
+	"$bumpmap" 			"seppola/concrete/concretewall_01_n"
+	"$bumpmap2" 		"seppola/concrete/concretewall_01_n"
+
+
+	"$surfaceprop" 		"concrete"
+	"$surfaceprop2" 	"concrete"
+
+
+	"$blendmodulatetexture" 	"seppola/blend/blendmodulate_001"
+
+	
+	"%tooltexture"		"seppola/concrete/concretewall_01_green"
+}

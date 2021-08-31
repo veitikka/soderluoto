@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	"$basetexture"	"seppola\tools\invismetal"
+	"$translucent" "1"
+	"$surfaceprop" "metal"
+	"%compilenodraw" 1
+}

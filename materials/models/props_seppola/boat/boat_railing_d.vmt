@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	$color2 "{ 164 184 196 }"
+	$blendtintbybasealpha "1"
+
+	$basetexture "models/props_seppola/exterior/metal_railing_01_d"
+
+	"$halflambert" 		"1"
+
+	"$phong" 		"1"
+	"$phongexponent" 	"50"
+	"$phongboost" 		"1"
+	"$phongfresnelranges" 	"[0.5 0.5 1]"
+	"$BasemapAlphaPhongMask""1"
+}

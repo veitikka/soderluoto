@@ -1,0 +1,5 @@
+"Sky"
+{
+	"$hdrcompressedtexture" "skybox/sky_seppola_hdrup"
+	"$basetexture" "skybox/sky_seppola_up"
+}

@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "blockmesh/blockmesh_brown"
+	"$surfaceprop" "concrete"
+}

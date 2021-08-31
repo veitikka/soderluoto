@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" 	"seppola/nature/rock_002"
+	"$bumpmap" 	"seppola/nature/rock_002_ssbump"
+	"$ssbump"	"1"
+	"$surfaceprop" 	"Boulder"
+}

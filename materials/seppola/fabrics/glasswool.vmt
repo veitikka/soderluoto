@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "seppola/fabrics/glasswool"
+	"$bumpmap" "seppola/fabrics/glasswool_n"
+	"$surfaceprop" "grass"
+	
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[ 0.15 0.15 0.15 ]"
+}

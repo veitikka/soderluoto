@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "seppola/nature/gravel_001"
+	"$surfaceprop" "gravel"
+}

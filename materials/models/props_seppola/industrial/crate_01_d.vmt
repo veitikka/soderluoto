@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture"		"models/props_seppola/industrial/crate_01_d"
+	"$bumpmap"		"models/props_seppola/industrial/crate_01_n"
+	
+	$phong 					1
+	
+	$halflambert			1
+	$rimlight               1
+	$rimlightexponent       2
+	
+	$phongexponent			5
+	$phongboost				1
+	$phongfresnelranges		"[0.05 0.5 1]"
+}

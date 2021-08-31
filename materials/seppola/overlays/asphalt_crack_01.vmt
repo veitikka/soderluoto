@@ -1,0 +1,9 @@
+"decalmodulate"
+{
+	"$basetexture" "seppola/overlays/asphalt_crack_01"
+	"$translucent" "1"
+	"$decal"       "1"
+	"$decalscale"  "0.250"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

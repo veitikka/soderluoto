@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+
+	$basetexture "models/props_seppola/interior/kitchen_stove_d"
+	$envmap "env_cubemap"
+	$envmapcontrast "0.9"
+	$envmaptint "[ 0.85 0.85 0.85 ]"
+	$envmapmask "models/props_seppola/interior/kitchen_stove_s"
+
+}

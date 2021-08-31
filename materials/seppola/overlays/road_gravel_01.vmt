@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "seppola/overlays/road_gravel_01"
+	"$decal"       "1"
+	"$decalscale"  "0.250"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

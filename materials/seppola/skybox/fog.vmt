@@ -1,0 +1,7 @@
+UnlitGeneric
+{
+$basetexture "seppola/skybox/fog"
+$translucent "1"
+//$color "{ 54 76 91 }"
+$nofog "1"
+}

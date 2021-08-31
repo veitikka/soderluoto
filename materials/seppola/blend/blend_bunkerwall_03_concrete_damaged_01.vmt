@@ -1,0 +1,19 @@
+WorldVertexTransition
+{
+	"$basetexture"			"seppola/concrete/bunkerwall_03"
+	"$basetexture2" 		"seppola/concrete/concrete_damaged_01"
+
+
+	"$bumpmap" 			"seppola/concrete/bunkerwall_03_n"
+	"$bumpmap2" 		"seppola/concrete/concrete_damaged_01_n"
+
+
+	"$surfaceprop" 		"concrete"
+	"$surfaceprop2" 	"concrete"
+
+
+	"$blendmodulatetexture" 	"seppola/blend/blendmodulate_001"
+
+	
+	"%tooltexture"		"seppola/concrete/bunkerwall_03"
+}

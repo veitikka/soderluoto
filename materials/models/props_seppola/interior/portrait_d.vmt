@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+
+	$basetexture "models/props_seppola/interior/portrait_d"
+	$envmap "env_cubemap"
+	$envmapmask "models/props_seppola/interior/portrait_ref"
+	$envmaptint "[ 0.3 0.3 0.3 ]"
+
+}

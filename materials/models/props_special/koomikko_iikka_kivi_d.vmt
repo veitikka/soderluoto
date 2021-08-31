@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_special/koomikko_iikka_kivi_d"
+	"$bumpmap" "models/props_special/koomikko_iikka_kivi_n"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.25 .25 .25]"
+}
